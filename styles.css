@@ -1,6 +1,7 @@
 body {
   font-family: "Bubblegum Sans", cursive;
   margin: 0%;
+  margin: 130px 0 45px 0;
 }
 
 h1 {
@@ -15,4 +16,25 @@ header {
   position: fixed;
   width: 100%;
   box-shadow: black 0px 3px 8px;
+  z-index: 1;
+  top: 0;
+}
+
+.card {
+  margin: 20px 10%;
+  border: 5px solid #252629;
+  padding: 3% 10%;
+  scroll-margin-top: 100px;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card-bookmark {
+  position: absolute;
+  right: 10px;
+  top: -10px;
 }
