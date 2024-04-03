@@ -1,5 +1,4 @@
 body {
-  background-color: rgb(134, 228, 231);
   font-family: "Bubblegum Sans", cursive;
   margin: 0%;
 }
@@ -12,4 +11,8 @@ h1 {
 
 header {
   border-bottom: solid black 5px;
+  background-color: cornsilk;
+  position: fixed;
+  width: 100%;
+  box-shadow: black 0px 3px 8px;
 }
