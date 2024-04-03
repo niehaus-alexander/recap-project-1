@@ -1,7 +1,7 @@
 body {
   font-family: "Bubblegum Sans", cursive;
   margin: 0%;
-  margin: 130px 0 45px 0;
+  margin: 130px 0 100px 0;
 }
 
 h1 {
@@ -56,12 +56,21 @@ footer ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  position: fixed;
   border-top: black solid 5px;
   height: 75px;
   width: 100%;
   bottom: 0px;
-  position: fixed;
   z-index: 2;
   background-color: white;
   margin-bottom: 0;
+}
+
+footer li {
+  margin-right: 80px;
+  padding-top: 10px;
+}
+
+.footer-icons {
+  font-size: 50px;
 }
