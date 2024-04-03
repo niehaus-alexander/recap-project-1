@@ -28,6 +28,7 @@ header {
   border-radius: 2rem;
   position: relative;
   margin-bottom: 60px;
+  z-index: 0;
 }
 
 .card p {
@@ -48,4 +49,5 @@ header {
   top: -17px;
   right: 40px;
   z-index: 1;
+  background-color: white;
 }
