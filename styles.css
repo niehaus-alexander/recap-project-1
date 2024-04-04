@@ -2,6 +2,7 @@ body {
   font-family: "Bubblegum Sans", cursive;
   margin: 0%;
   margin: 130px 0 100px 0;
+  background-color: antiquewhite;
 }
 
 h1 {
@@ -29,7 +30,8 @@ header {
   position: relative;
   margin-bottom: 60px;
   z-index: 0;
-  background-color: bisque;
+  background-color: white;
+  border: solid black 1px;
 }
 
 .card p {
@@ -80,8 +82,12 @@ footer li {
   font-size: 50px;
 }
 
-footer a {
+.color-icons {
   color: black;
+}
+
+.brownclick {
+  color: brown;
 }
 
 footer a:hover {
