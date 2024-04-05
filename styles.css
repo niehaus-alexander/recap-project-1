@@ -8,3 +8,11 @@ h1 {
   font-family: "Bubblegum Sans", cursive;
   font-size: 35px;
 }
+
+.description {
+  text-align: left;
+}
+
+.description-category {
+  font-weight: bold;
+}
