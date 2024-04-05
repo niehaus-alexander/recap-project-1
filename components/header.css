@@ -1,6 +1,7 @@
 header {
   border-bottom: solid var(--accent);
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background: linear-gradient(120deg, var(--accent), var(--primary));
   position: fixed;
   width: 100%;
   /* box-shadow: var(--accent) 0px 3px 8px; */
