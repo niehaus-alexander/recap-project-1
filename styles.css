@@ -1,95 +1,10 @@
-body {
-  font-family: "Bubblegum Sans", cursive;
-  margin: 0%;
-  margin: 130px 0 100px 0;
-  background-color: antiquewhite;
-}
+@import "global.css";
+@import "./components/header.css";
+@import "./components/cards.css";
+@import "./components/footer.css";
 
 h1 {
   text-align: center;
   font-family: "Bubblegum Sans", cursive;
   font-size: 35px;
-}
-
-header {
-  border-bottom: solid black 5px;
-  background-color: cornsilk;
-  position: fixed;
-  width: 100%;
-  box-shadow: black 0px 3px 8px;
-  z-index: 2;
-  top: 0;
-}
-
-.card {
-  margin: 20px 10%;
-  box-shadow: 10px 20px 5px;
-  padding: 3% 10%;
-  scroll-margin-top: 100px;
-  border-radius: 2rem;
-  position: relative;
-  margin-bottom: 60px;
-  z-index: 0;
-  background-color: white;
-  border: solid black 1px;
-}
-
-.card p {
-  text-align: center;
-}
-
-div {
-  text-align: center;
-}
-
-.bookmark-icon-filled {
-  font-size: 35px;
-  position: absolute;
-  top: -17px;
-  right: 40px;
-  z-index: 1;
-}
-
-.bookmark-icon {
-  font-size: 35px;
-  position: absolute;
-  top: -17px;
-  right: 40px;
-  z-index: 1;
-  background-color: white;
-}
-
-footer ul {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  position: fixed;
-  border-top: black solid 5px;
-  height: 75px;
-  width: 100%;
-  bottom: 0px;
-  z-index: 2;
-  background-color: cornsilk;
-  margin-bottom: 0;
-}
-
-footer li {
-  margin-right: 80px;
-  padding-top: 10px;
-}
-
-.footer-icons {
-  font-size: 50px;
-}
-
-.color-icons {
-  color: black;
-}
-
-.brownclick {
-  color: brown;
-}
-
-footer a:hover {
-  color: rgb(194, 65, 45);
 }

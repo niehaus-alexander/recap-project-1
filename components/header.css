@@ -1,0 +1,10 @@
+header {
+  border-bottom: solid var(--accent);
+  background-color: var(--primary);
+  position: fixed;
+  width: 100%;
+  box-shadow: var(--accent) 0px 3px 8px;
+  z-index: 2;
+  top: 0;
+  color: var(--text);
+}
