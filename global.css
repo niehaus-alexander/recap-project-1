@@ -6,9 +6,39 @@ body {
 }
 
 :root {
-  --text: #030407;
+  --text: #091418;
+  --background: #fbfdfd;
+  --primary: #4e9bbe;
+  --secondary: #da9abc;
+  --accent: #ca806e;
+
+  /* --text: #030407;
   --background: #fbfcfd;
   --primary: #5762b3;
   --secondary: #cda6d7;
-  --accent: #c37bb7;
+  --accent: #c37bb7; */
+
+  /* --text: #050d07;
+--background: #f8fdfa;
+--primary: #45c070;
+--secondary: #9792da;
+--accent: #b06dcd; */
+
+  /* --text: #200402;
+--background: #fff8f8;
+--primary: #f13b23;
+--secondary: #7ef7d9;
+--accent: #5286f4; */
+
+  /* --text: #220511;
+--background: #fdedf4;
+--primary: #e32e89;
+--secondary: #86efbd;
+--accent: #59b0e9; */
+
+  /* --text: #180409;
+--background: #fdf2f4;
+--primary: #dc2953;
+--secondary: #eac47e;
+--accent: #e4e666; */
 }
