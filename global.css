@@ -1,0 +1,14 @@
+body {
+  font-family: "Bubblegum Sans", cursive;
+  margin: 0%;
+  margin: 130px 0 100px 0;
+  background-color: var(--background);
+}
+
+:root {
+  --text: #030407;
+  --background: #fbfcfd;
+  --primary: #5762b3;
+  --secondary: #cda6d7;
+  --accent: #c37bb7;
+}
