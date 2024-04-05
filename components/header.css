@@ -1,9 +1,9 @@
 header {
-  border-bottom: solid black 5px;
-  background-color: cornsilk;
+  border-bottom: solid var(--accent);
+  background-color: var(--primary);
   position: fixed;
   width: 100%;
-  box-shadow: black 0px 3px 8px;
+  box-shadow: var(--accent) 0px 3px 8px;
   z-index: 2;
   top: 0;
   color: var(--text);

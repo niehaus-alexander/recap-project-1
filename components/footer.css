@@ -3,12 +3,12 @@ footer ul {
   justify-content: space-around;
   list-style-type: none;
   position: fixed;
-  border-top: black solid 5px;
+  border-top: var(--accent) solid;
   height: 75px;
   width: 100%;
   bottom: 0px;
   z-index: 2;
-  background-color: cornsilk;
+  background-color: var(--primary);
   margin-bottom: 0;
 }
 
@@ -26,9 +26,9 @@ footer li {
 }
 
 .brownclick {
-  color: brown;
+  color: var(--accent);
 }
 
 footer a:hover {
-  color: rgb(194, 65, 45);
+  color: var(--secondary);
 }
