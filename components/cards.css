@@ -30,12 +30,23 @@
   background-color: var(--secondary);
 }
 
+.button {
+  font-family: "Bubblegum Sans", cursive;
+  background-color: orange;
+  font-size: 1.2rem;
+  border: solid black 1px;
+}
+
 .toggle-background {
   color: red;
 }
 
 .hidden {
   display: none;
+}
+
+.answerText {
+  font-style: italic;
 }
 
 .tag-container {
