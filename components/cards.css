@@ -1,5 +1,6 @@
 .card {
-  margin: 10px;
+  width: 50%;
+  margin: 0 auto;
   /* box-shadow: var(--accent) 5px 5px 5px; */
   box-shadow: black 5px 5px 5px;
   padding: 3% 10%;
@@ -9,6 +10,7 @@
   z-index: 0;
   background-color: var(--secondary);
   text-align: center;
+  font-size: larger;
 }
 
 main .fa-star {

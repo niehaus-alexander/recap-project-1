@@ -2,6 +2,7 @@
 @import "./components/header.css";
 @import "./components/cards.css";
 @import "./components/footer.css";
+@import "./components/form.css";
 
 h1 {
   text-align: center;
