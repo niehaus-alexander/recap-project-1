@@ -31,3 +31,7 @@ main .fa-star {
 .toggle-background {
   color: red;
 }
+
+.hidden {
+  display: none;
+}
