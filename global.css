@@ -6,11 +6,11 @@ body {
 }
 
 :root {
-  --text: #091418;
+  /* --text: #091418;
   --background: #fbfdfd;
   --primary: #4e9bbe;
   --secondary: #da9abc;
-  --accent: #ca806e;
+  --accent: #ca806e; */
 
   /* --text: #030407;
   --background: #fbfcfd;
@@ -34,11 +34,11 @@ body {
 --background: #fdedf4;
 --primary: #e32e89;
 --secondary: #86efbd;
---accent: #59b0e9; */
+--accent: #59b0e9;   */
 
-  /* --text: #180409;
---background: #fdf2f4;
---primary: #dc2953;
---secondary: #eac47e;
---accent: #e4e666; */
+  --text: #180409;
+  --background: #fdf2f4;
+  --primary: #dc2953;
+  --secondary: #eac47e;
+  --accent: #e4e666;
 }

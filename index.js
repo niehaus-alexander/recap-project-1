@@ -1,8 +1,8 @@
-const homePageIcon = document.querySelector("[data-js=homepage-icon]");
-const bookmarkIcon = document.querySelector("[data-js=bookmark-icon");
-const profileIcon = document.querySelector("[data-js=profile-icon]");
+const navbarHomePageIcon = document.querySelector("[data-js=homepage-icon]");
+const navbarBookmarkIcon = document.querySelector("[data-js=star-icon");
+const navbarProfileIcon = document.querySelector("[data-js=profile-icon]");
+const starMark = document.querySelector("[data-js=starMark]");
 
-homePageIcon.addEventListener("click", function () {
-  homePageIcon.classList.add("brownclick");
-  homePageIcon.classList.remove("color-icons");
+starMark.addEventListener("click", () => {
+  starMark.classList.toggle("toggle-background");
 });
