@@ -11,4 +11,9 @@ starMark.addEventListener("click", () => {
 
 answerButton.addEventListener("click", () => {
   answer.classList.toggle("hidden");
+  if (answer.classList.contains("hidden")) {
+    answerButton.textContent = "Show Answer";
+  } else {
+    answerButton.textContent = "Hide Answer";
+  }
 });
