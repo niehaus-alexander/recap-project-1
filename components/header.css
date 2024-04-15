@@ -1,5 +1,5 @@
 header {
-  border-bottom: solid var(--accent);
+  /* border-bottom: solid var(--accent); */
   /* background-color: var(--primary); */
   background: linear-gradient(120deg, var(--accent), var(--primary));
   position: fixed;

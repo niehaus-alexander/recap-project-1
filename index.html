@@ -18,23 +18,25 @@
       </header>
     </section>
     <main>
+      <section class="input"></section>
       <section class="card">
         <p class="question">
           How do you change the background color of an element using CSS?
         </p>
         <div class="button">
-          <button>Show Answer</button>
+          <button data-js="answerButton">Show Answer</button>
         </div>
-          <i class="fa-regular fa-bookmark bookmark-icon"></i>
+        <p data-js="answer" class="hidden">
+          Using the background-color property!
+        </p>
+        <i data-js="starMark" class="fa-solid fa-star"></i>
       </section>
       <section class="card">
-        <p class="question">
-        What does HTML stand for?
-        </p>
+        <p class="question">What does HTML stand for?</p>
         <div class="button">
           <button>Show Answer</button>
         </div>
-        <i class="fa-solid fa-bookmark bookmark-icon-filled"></i>
+        <i class="fa-solid fa-star"></i>
       </section>
       <section class="card">
         <p class="question">
@@ -43,7 +45,7 @@
         <div class="button">
           <button>Show Answer</button>
         </div>
-          <i class="fa-regular fa-bookmark bookmark-icon"></i>
+        <i class="fa-solid fa-star"></i>
       </section>
       <section class="card">
         <p class="question">
@@ -52,25 +54,41 @@
         <div class="button">
           <button>Show Answer</button>
         </div>
-        <i class="fa-solid fa-bookmark bookmark-icon-filled"></i>
+        <i class="fa-solid fa-star"></i>
       </section>
       <section class="card">
-        <p class="question">
-          What command is used to stage changes in git?
-        </p>
+        <p class="question">What command is used to stage changes in git?</p>
         <div class="button">
           <button>Show Answer</button>
         </div>
-        <i class="fa-solid fa-bookmark bookmark-icon-filled"></i>
+        <i class="fa-solid fa-star"></i>
       </section>
     </main>
     <section>
       <footer>
         <navbar>
           <ul class="list">
-            <li><a data-js="homepage-icon" class="color-icons" href="./index.html"><i class="fa-solid fa-house footer-icons"></i></li></a>
-            <li><a data-js="bookmark-icon" class="color-icons" href="./bookmark.html"><i class="fa-solid fa-bookmark footer-icons"></i></li></a>
-            <li><a data-js="profile-icon" class="color-icons" href="./profile.html"><i class="fa-solid fa-person footer-icons"></i></li></a>
+            <li>
+              <a data-js="homepage-icon" class="color-icons" href="./index.html"
+                ><i
+                  data-js="starMark"
+                  class="fa-solid fa-house footer-icons"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a data-js="star-icon" class="color-icons" href="./bookmark.html"
+                ><i class="fa-solid fa-star footer-icons"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                data-js="profile-icon"
+                class="color-icons"
+                href="./profile.html"
+                ><i class="fa-solid fa-person footer-icons"></i
+              ></a>
+            </li>
           </ul>
         </navbar>
       </footer>
