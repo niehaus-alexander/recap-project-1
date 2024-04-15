@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
-    <script src="../javascript/index.js" defer></script>
+    <script src="../javascript/cards.js" defer></script>
     <link rel="stylesheet" href="../styles.css" />
     <link
       rel="stylesheet"
@@ -17,23 +17,24 @@
         <h1>Quiz Me Maybe</h1>
       </header>
     </section>
+    <main>
     <section class="form-section">
-      <form class="form">
+      <form class="form" data-js="form">
         <h2>Create your own question!</h2>
-        <label for="form-question" >Your question:</label>
-        <textarea name="form-question" id="form-question"></textarea>
+        <label for="formQuestion" >Your question:</label>
+        <textarea data-js="question-input" name="formQuestion" id="formQuestion"></textarea>
 
-        <label for="form-answer">Answer:</label>
-        <textarea name="form-question" id="form-question"></textarea>
+        <label for="formAnswer">Answer:</label>
+        <textarea data-js="answer-input" name="formAnswer" id="formAnswer"></textarea>
 
         <label for="form-tags">Tag:</label>
-        <input class="tag-input" type="text" name="form-tags" id="form-tags">
+        <input data-js="tag-input" class="tag-input" type="text" name="formTag" id="formTag">
 
         <button class="submit-button" type="submit">Create question</button>
       </form>
 
     </section>
-    
+    </main>
       <footer>
         <navbar>
           <ul class="list">

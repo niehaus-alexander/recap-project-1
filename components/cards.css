@@ -13,7 +13,7 @@
   font-size: larger;
 }
 
-main .fa-star {
+#fa-star {
   font-size: 35px;
   position: absolute;
   top: -17px;
@@ -36,4 +36,10 @@ main .fa-star {
 
 .hidden {
   display: none;
+}
+
+.tag-container {
+  margin-top: 50px;
+  margin-bottom: -20px;
+  font-size: 75%;
 }
