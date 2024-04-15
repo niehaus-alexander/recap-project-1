@@ -1,5 +1,5 @@
 .form-section {
-  text-align: center;
+  text-align: start;
   width: 40%;
   margin: 0 auto;
   background: var(--secondary);
@@ -9,6 +9,7 @@
 .form {
   display: flex;
   flex-direction: column;
+  justify-content: start;
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 30px;
@@ -33,4 +34,16 @@ textarea {
 
 .tag-input {
   border-radius: 5px;
+}
+
+.remaining-characters-question {
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.remaining-characters-answer {
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 0px;
 }

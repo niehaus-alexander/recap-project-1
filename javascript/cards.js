@@ -33,3 +33,21 @@ form.addEventListener("submit", (event) => {
   document.body.append(card);
   event.target.reset();
 });
+
+const questionInput = document.querySelector("[data-js=question-input]");
+const answerInput = document.querySelector("[data-js=answer-input]");
+
+const remainingQuestion = document.querySelector(
+  "[data-js=remaining-characters-question]"
+);
+const remainingAnswer = document.querySelector(
+  "[data-js=remaining-characters-answer]"
+);
+
+questionInput.addEventListener("input", (event) => {
+  remainingQuestion.textContent = 150 - event.target.value.length;
+});
+
+answerInput.addEventListener("input", (event) => {
+  remainingAnswer.textContent = 150 - event.target.value.length;
+});

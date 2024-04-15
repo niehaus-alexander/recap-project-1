@@ -22,10 +22,30 @@
       <form class="form" data-js="form">
         <h2>Create your own question!</h2>
         <label for="formQuestion" >Your question:</label>
-        <textarea data-js="question-input" name="formQuestion" id="formQuestion"></textarea>
+        <textarea 
+        data-js="question-input" 
+        name="formQuestion" 
+        id="formQuestion"
+        rows="5"
+        columns="50"
+        maxlength="150"
+        ></textarea>
+        <p class="remaining-characters-question">
+          <span data-js="remaining-characters-question">150</span> characters left
+        </p>
 
         <label for="formAnswer">Answer:</label>
-        <textarea data-js="answer-input" name="formAnswer" id="formAnswer"></textarea>
+        <textarea 
+        data-js="answer-input" 
+        name="formAnswer" 
+        id="formAnswer"
+        rows="5"
+        cols="50"
+        maxlength="150"
+        ></textarea>
+        <p class="remaining-characters-answer">
+          <span data-js="remaining-characters-answer">150</span> characters left
+        </p>
 
         <label for="form-tags">Tag:</label>
         <input data-js="tag-input" class="tag-input" type="text" name="formTag" id="formTag">
