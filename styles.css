@@ -16,3 +16,13 @@ h1 {
 .description-category {
   font-weight: bold;
 }
+
+.form-section {
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
