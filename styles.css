@@ -2,6 +2,7 @@
 @import "./components/header.css";
 @import "./components/cards.css";
 @import "./components/footer.css";
+@import "./components/form.css";
 
 h1 {
   text-align: center;
@@ -15,14 +16,4 @@ h1 {
 
 .description-category {
   font-weight: bold;
-}
-
-.form-section {
-  text-align: center;
-  width: 20%;
-  margin: 0 auto;
-}
-.form {
-  display: flex;
-  flex-direction: column;
 }
